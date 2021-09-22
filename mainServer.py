@@ -3,7 +3,7 @@ import socket
 import select
 
 head_len = 10
-host_ip = socket.gethostbyname(socket.gethostname())
+host_ip = 185.199.108.153
 port = 48787
 
 server_socket = socket.socket(socket.AF_INET , socket.SOCK_STREAM)
